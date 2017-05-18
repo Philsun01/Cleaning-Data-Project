@@ -32,10 +32,12 @@ The processed dataset files:
 - 'test/y_test.txt': Test labels.
 
 ___________________________
-#R Script used to process the data:
+### R Script used to process the data:
+### Declare Dplyr Library
+  library(dplyr)
 
-library(dplyr)
-#read all the files
+### read all the files
+
   x_train <- read.table("UCI HAR Dataset/train/x_train.txt", stringsAsFactors = FALSE)
   
   y_train <- read.table("UCI HAR Dataset/train/y_train.txt", stringsAsFactors = FALSE)
