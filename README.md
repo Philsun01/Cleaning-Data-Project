@@ -1,6 +1,6 @@
 # Cleaning Data Project
 ---
-title: "Human Activity Recongition Data Clean Up"
+Title: "Human Activity Recongition Data Clean Up"
 Version 1.0
 ---
 Data from a machine learning experiment involving measuring human activity through mobile phones was collected and had statistical analysis performed on it.  This project involved the clean up and extraction of that data.
