@@ -37,10 +37,15 @@ ___________________________
 library(dplyr)
 #read all the files
   x_train <- read.table("UCI HAR Dataset/train/x_train.txt", stringsAsFactors = FALSE)
+  
   y_train <- read.table("UCI HAR Dataset/train/y_train.txt", stringsAsFactors = FALSE)
+  
   x_test <- read.table("UCI HAR Dataset/test/x_test.txt", stringsAsFactors = FALSE)
+  
   y_test <- read.table("UCI HAR Dataset/test/y_test.txt",stringsAsFactors = FALSE)
+  
   activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt",stringsAsFactors = FALSE)
+  
   features <- read.table("UCI HAR Dataset/features.txt", stringsAsFactors = FALSE)
   
   ### Create a features vector
@@ -76,4 +81,4 @@ library(dplyr)
   ### summarize mean for each activity
     act_mean <- summarise_each(act_group,funs(mean))
     return(act_mean)
-}
+    }
