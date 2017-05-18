@@ -1,13 +1,16 @@
+---
 Human Activity Recongition Codebook
-
+---
 The following is statistical information regarding human activity tracked through the motion sensor in their smartphones.
 
 Experimental background:
+
 Today's consumer are much more health conscious and like to validate their fitness activity through wearable or mobile devices.  The following data was gathered by the University of California Irvine department of machine learning through the accelerometers in Samsung Galaxy S Smartphones.  
 
 Raw data: 
 
 Statistical means and standard devationas for triaxial data (X,Y,Z) was provided for the following observations:
+
 tBodyAcc - XYZ
 tGravityAcc - XYZ
 tBodyAccJerk - XYZ
