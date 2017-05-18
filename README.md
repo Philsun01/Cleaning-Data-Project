@@ -49,11 +49,11 @@ library(dplyr)
   features <- read.table("UCI HAR Dataset/features.txt",
                          stringsAsFactors = FALSE)
   
-  ###Create a features vector
-  features <- features$V2
+  ### Create a features vector
+   features <- features$V2
 
 ### Declare the function to use
-analyze <- function(x_train,y_train,x_test,y_test,act,features) {
+    analyze <- function(x_train,y_train,x_test,y_test,act,features) {
   
   ### Add merge and add activity labels
     train_rowlabel <- merge(y_train, act)
@@ -80,8 +80,8 @@ analyze <- function(x_train,y_train,x_test,y_test,act,features) {
   ### group by activity 
     act_group <- group_by(act_select,Activity)
   
-  ###summarize mean for each Activity
-    act_mean <- summarise_each(act_group,funs(mean))
+  ### summarize mean for each activity
+  act_mean <- summarise_each(act_group,funs(mean))
   
   return(act_mean)
 }
