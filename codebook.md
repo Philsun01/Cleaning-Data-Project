@@ -6,6 +6,7 @@ Experimental background:
 Today's consumer are much more health conscious and like to validate their fitness activity through wearable or mobile devices.  The following data was gathered by the University of California Irvine department of machine learning through the accelerometers in Samsung Galaxy S Smartphones.  
 
 Raw data: 
+
 Statistical means and standard devationas for triaxial data (X,Y,Z) was provided for the following observations:
 tBodyAcc - XYZ
 tGravityAcc - XYZ
@@ -26,6 +27,7 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 Processed data: 
+
 Data was provided in the form of a Training Data Set,Training Data Labels, Test Data Set, Test Data Label, Activity Labels, and Feature Labels.
 1. All data files were loaded into R studio as dataframes.  
 2. Dataset activity category numbers were merged with Activity Labels so activities can be read as descriptive words.
